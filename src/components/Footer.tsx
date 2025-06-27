@@ -28,8 +28,8 @@ const Footer: React.FC = () => {
           <h6 className="footer-title">Services</h6>
           <Link to="/rehabilitation" className="link link-hover">Physical Therapy</Link>
           <Link to="/rehabilitation" className="link link-hover">Occupational Therapy</Link>
-          <Link to="/Dentistry-aesthetics" className="link link-hover">Dentistry</Link>
-          <Link to="/Dentistry-aesthetics" className="link link-hover">Aesthetic Treatments</Link>
+          <Link to="/dentistry-aesthetics" className="link link-hover">Dentistry</Link>
+          <Link to="/dentistry-aesthetics" className="link link-hover">Aesthetic Treatments</Link>
         </nav>
 
         {/* Quick Links */}

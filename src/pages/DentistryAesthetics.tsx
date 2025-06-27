@@ -2,17 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, Shield, Sparkles, Users, CheckCircle, Clock, ArrowRight, Star } from 'lucide-react';
 
-const GynecologyAesthetics: React.FC = () => {
-  const gynServices = [
+const DentistryAesthetics: React.FC = () => {
+  const denServices = [
     {
-      title: 'Routine Gynecological Care',
+      title: 'Routine Dental Care',
       description: 'Comprehensive women\'s health exams and preventive care.',
       features: ['Annual wellness exams', 'Pap smears', 'Birth control counseling', 'STD testing']
-    },
-    {
-      title: 'Reproductive Health',
-      description: 'Specialized care for all stages of reproductive life.',
-      features: ['Fertility consultation', 'Menopause management', 'Hormonal therapy', 'PCOS treatment']
     },
     {
       title: 'Minimally Invasive Procedures',
@@ -61,7 +56,7 @@ const GynecologyAesthetics: React.FC = () => {
                   <span className="text-secondary"> Aesthetic</span> Excellence
                 </h1>
                 <p className="text-xl mb-8 leading-relaxed opacity-80">
-                  Comprehensive gynecological care and advanced aesthetic treatments designed to help you feel confident, healthy, and beautiful at every stage of life.
+                  Comprehensive dental care and advanced aesthetic treatments designed to help you feel confident, healthy, and beautiful at every stage of life.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link to="/contact" className="btn btn-secondary btn-lg">
@@ -102,21 +97,21 @@ const GynecologyAesthetics: React.FC = () => {
         </div>
       </section>
 
-      {/* Gynecology Services */}
+      {/* Dental Services */}
       <section className="py-20 bg-base-100">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <Heart className="h-12 w-12 text-secondary mx-auto mb-4" />
             <h2 className="text-4xl font-bold mb-4">
-              Comprehensive Gynecological Care
+              Comprehensive Dental Care
             </h2>
             <p className="text-xl opacity-80 max-w-3xl mx-auto">
-              Complete women's health services in a comfortable, private environment with compassionate care.
+              Complete health services in a comfortable, private environment with compassionate care.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {gynServices.map((service, index) => (
+            {denServices.map((service, index) => (
               <div key={index} className="card bg-base-200 shadow-xl hover:shadow-2xl transition-shadow duration-300">
                 <div className="card-body">
                   <h3 className="card-title text-2xl mb-4">
@@ -195,7 +190,7 @@ const GynecologyAesthetics: React.FC = () => {
             </div>
             <div>
               <h2 className="text-4xl font-bold mb-6">
-                Why Choose VitaCare?
+                Why Choose Olivia Clinic?
               </h2>
               <p className="text-xl mb-8 opacity-80">
                 Experience the highest standard of care with our team of specialists dedicated to your health and well-being.
@@ -268,4 +263,4 @@ const GynecologyAesthetics: React.FC = () => {
   );
 };
 
-export default GynecologyAesthetics;
+export default DentistryAesthetics;

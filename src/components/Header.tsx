@@ -11,7 +11,7 @@ const Header: React.FC = () => {
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'Rehabilitation', href: '/rehabilitation' },
-    { name: 'Gynecology & Aesthetics', href: '/gynecology-aesthetics' },
+    { name: 'Dentistry & Aesthetics', href: '/dentistry-aesthetics' },
     { name: 'About Us', href: '/about' },
     { name: 'Testimonials', href: '/testimonials' },
     { name: 'FAQs', href: '/faqs' },
@@ -57,8 +57,8 @@ const Header: React.FC = () => {
             <Heart className="h-6 w-6 text-secondary -ml-1" />
           </div>
           <div className="font-bold">
-            <span className="text-primary">Vita</span>
-            <span className="text-secondary">Care</span>
+            <span className="text-primary">cURe</span>
+            <span className="text-secondary">Clinic</span>
           </div>
         </Link>
       </div>

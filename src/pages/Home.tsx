@@ -12,8 +12,8 @@ const Home: React.FC = () => {
     },
     {
       icon: Heart,
-      title: 'Women\'s Health & Aesthetics',
-      description: 'Complete gynecological care and aesthetic treatments in a comfortable environment.',
+      title: 'Dentistry & Aesthetics',
+      description: 'Complete dental care and aesthetic treatments in a comfortable environment.',
       color: 'text-secondary'
     },
     {
@@ -31,8 +31,8 @@ const Home: React.FC = () => {
   ];
 
   const stats = [
-    { number: '10,000+', label: 'Patients Served' },
-    { number: '15+', label: 'Years Experience' },
+    { number: '100+', label: 'Patients Served' },
+    { number: '5+', label: 'Years Experience' },
     { number: '98%', label: 'Satisfaction Rate' },
     { number: '24/7', label: 'Support Available' }
   ];
@@ -51,7 +51,7 @@ const Home: React.FC = () => {
                   <span className="text-secondary"> Beauty</span>
                 </h1>
                 <p className="text-xl mb-8 leading-relaxed opacity-80">
-                  Experience comprehensive care that combines advanced rehabilitation services with specialized women's health and aesthetic treatments—all under one roof.
+                  Experience comprehensive care that combines advanced rehabilitation services with specialized dentistry and aesthetic treatments—all under one roof.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Link to="/contact" className="btn btn-primary btn-lg">
@@ -80,7 +80,7 @@ const Home: React.FC = () => {
                         <CheckCircle className="h-8 w-8 text-success" />
                         <div>
                           <p className="font-semibold">Trusted Care</p>
-                          <p className="text-sm opacity-70">Since 2010</p>
+                          <p className="text-sm opacity-70">Since 2022</p>
                         </div>
                       </div>
                     </div>
@@ -176,14 +176,14 @@ const Home: React.FC = () => {
               </figure>
               <div className="card-body">
                 <h3 className="card-title text-3xl mb-4">
-                  Gynecology & Aesthetics
+                  Dentistry & Aesthetics
                 </h3>
                 <p className="mb-6 opacity-80">
-                  Comprehensive women's health care and aesthetic treatments in a comfortable, private setting. Feel confident in your health and beauty with our specialized services.
+                  Comprehensive dental and aesthetic treatments in a comfortable, private setting. Feel confident in your health and beauty with our specialized services.
                 </p>
                 <div className="card-actions">
-                  <Link to="/gynecology-aesthetics" className="btn btn-secondary">
-                    Explore Women's Health Services
+                  <Link to="/dentistry-aesthetics" className="btn btn-secondary">
+                    Explore Aesthetic Health Services
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Link>
                 </div>

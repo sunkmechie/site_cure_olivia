@@ -14,12 +14,12 @@ const Footer: React.FC = () => {
               <Heart className="h-6 w-6 text-secondary -ml-1" />
             </div>
             <div className="text-xl font-bold">
-              <span className="text-primary">Vita</span>
-              <span className="text-secondary">Care</span>
+              <span className="text-primary">cURe Clinic</span>
+              <span className="text-secondary"></span>
             </div>
           </Link>
           <p className="text-sm leading-relaxed max-w-xs">
-            Comprehensive rehabilitation services and women's health care in one trusted location.
+            Comprehensive rehabilitation, aesthetic, and dentistry services in one trusted location.
           </p>
         </aside>
 
@@ -28,8 +28,8 @@ const Footer: React.FC = () => {
           <h6 className="footer-title">Services</h6>
           <Link to="/rehabilitation" className="link link-hover">Physical Therapy</Link>
           <Link to="/rehabilitation" className="link link-hover">Occupational Therapy</Link>
-          <Link to="/gynecology-aesthetics" className="link link-hover">Gynecology</Link>
-          <Link to="/gynecology-aesthetics" className="link link-hover">Aesthetic Treatments</Link>
+          <Link to="/Dentistry-aesthetics" className="link link-hover">Dentistry</Link>
+          <Link to="/Dentistry-aesthetics" className="link link-hover">Aesthetic Treatments</Link>
         </nav>
 
         {/* Quick Links */}
@@ -47,15 +47,15 @@ const Footer: React.FC = () => {
           <div className="space-y-2">
             <div className="flex items-center space-x-2">
               <Phone className="h-4 w-4 text-primary" />
-              <span>(555) 123-4567</span>
+              <span>(+91) 9494761413</span>
             </div>
             <div className="flex items-center space-x-2">
               <Mail className="h-4 w-4 text-primary" />
-              <span>info@vitacare.com</span>
+              <span>harsha.rayahp@gmail.com </span>
             </div>
             <div className="flex items-start space-x-2">
               <MapPin className="h-4 w-4 text-primary mt-0.5" />
-              <span>123 Wellness Drive<br />Health City, HC 12345</span>
+              <span>Opposite Vishaka Diary, Sarpavaram Junction<br />Kakinada, 533003</span>
             </div>
             <div className="flex items-center space-x-2">
               <Clock className="h-4 w-4 text-primary" />
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
 
       <div className="footer footer-center p-4 border-t border-base-300">
         <aside>
-          <p>© 2025 VitaCare Center. All rights reserved. | Privacy Policy | Terms of Service</p>
+          <p>© 2025 cURe Clinic. All rights reserved. | Privacy Policy | Terms of Service</p>
         </aside>
       </div>
     </footer>

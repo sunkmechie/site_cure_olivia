@@ -15,16 +15,16 @@ const FAQs: React.FC = () => {
 
   const generalFAQs = [
     {
-      question: "What services does VitaCare offer?",
-      answer: "VitaCare provides comprehensive rehabilitation services including physical therapy, occupational therapy, and neurological rehabilitation, as well as complete women's health services including gynecology and aesthetic treatments. Our integrated approach allows us to address all aspects of your health and wellness in one convenient location."
+      question: "What services does cURe offer?",
+      answer: "cURe provides comprehensive rehabilitation services including physical therapy, occupational therapy, and neurological rehabilitation, as well as complete dentisry and aesthetic treatments. Our integrated approach allows us to address all aspects of your health and wellness in one convenient location."
     },
     {
       question: "Do you accept insurance?",
-      answer: "Yes, we accept most major insurance plans including Medicare and Medicaid. Our staff will verify your benefits and help you understand your coverage before your first appointment. We also offer flexible payment options for services not covered by insurance."
+      answer: "No"
     },
     {
       question: "How do I schedule an appointment?",
-      answer: "You can schedule an appointment by calling our office at (555) 123-4567, using our online booking system, or visiting us in person. For urgent matters, we offer same-day appointments when available."
+      answer: "You can schedule an appointment by calling our office at (+91) 9494761413, using our online booking system, or visiting us in person. For urgent matters, we offer same-day appointments when available."
     },
     {
       question: "What should I bring to my first appointment?",
@@ -59,18 +59,18 @@ const FAQs: React.FC = () => {
     }
   ];
 
-  const womensHealthFAQs = [
+  const aestheticHealthFAQs = [
     {
-      question: "How often should I have a gynecological exam?",
-      answer: "Most women should have an annual gynecological exam, though the frequency may vary based on age, health history, and risk factors. Pap smears are typically recommended every 3 years for women ages 21-65, or every 5 years when combined with HPV testing. We'll create a personalized screening schedule for you."
+      question: "How often should I have a dental exam?",
+      answer: "Most people should have an annual dental exam, though the frequency may vary based on age, health history, and risk factors."
     },
     {
       question: "Are aesthetic treatments safe?",
-      answer: "Yes, when performed by qualified professionals using FDA-approved equipment and techniques. All our aesthetic treatments are performed by board-certified physicians or licensed practitioners under physician supervision. We prioritize safety and natural-looking results in all our procedures."
+      answer: "Yes, when performed by qualified professionals using approved equipment and techniques. All our aesthetic treatments are performed by board-certified physicians or licensed practitioners under physician supervision. We prioritize safety and natural-looking results in all our procedures."
     },
     {
       question: "What aesthetic treatments do you offer?",
-      answer: "We offer a comprehensive range of aesthetic treatments including Botox and dermal fillers, chemical peels, microdermabrasion, laser treatments, IPL photofacials, microneedling, CoolSculpting, and medical-grade skincare. During your consultation, we'll recommend the best treatments for your goals and skin type."
+      answer: "We offer a comprehensive range of aesthetic treatments including Botox and dermal fillers, chemical peels, microdermabrasion, laser treatments, IPL photofacials, microneedling, and medical-grade skincare. During your consultation, we'll recommend the best treatments for your goals and skin type."
     },
     {
       question: "How long do aesthetic results last?",

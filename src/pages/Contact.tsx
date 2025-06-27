@@ -41,19 +41,19 @@ const Contact: React.FC = () => {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['(555) 123-4567', 'Emergency: (555) 123-4568'],
+      details: ['(+91) 9494761413', 'Emergency: (+91) 9100317544'],
       color: 'text-primary'
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@vitacare.com', 'appointments@vitacare.com'],
+      details: ['harsha.rahayp@gmail.com', 'appointments@cure.com'],
       color: 'text-secondary'
     },
     {
       icon: MapPin,
       title: 'Address',
-      details: ['123 Wellness Drive', 'Health City, HC 12345'],
+      details: ['Opp Vishaka Diary Farm, Sarpavaram Junction', 'Kakinada, 533003'],
       color: 'text-accent'
     },
     {

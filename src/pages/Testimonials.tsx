@@ -16,7 +16,7 @@ const Testimonials: React.FC = () => {
     {
       name: 'Maria Rodriguez',
       age: 42,
-      service: 'Gynecology & Aesthetics',
+      service: 'Dentistry & Aesthetics',
       rating: 5,
       image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300',
       quote: 'The comprehensive women\'s health care I received was outstanding. Dr. Mitchell and her team made me feel comfortable and heard. The aesthetic treatments have boosted my confidence tremendously.',
@@ -177,7 +177,7 @@ const Testimonials: React.FC = () => {
               </figure>
               <div className="card-body">
                 <p className="opacity-80">
-                  Watch Sarah share how physical therapy at VitaCare helped her return to competitive running after a serious injury.
+                  Watch Sarah share how physical therapy at cURe helped her return to competitive running after a serious injury.
                 </p>
               </div>
             </div>

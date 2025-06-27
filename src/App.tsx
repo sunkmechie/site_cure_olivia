@@ -5,7 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Rehabilitation from './pages/Rehabilitation';
-import GynecologyAesthetics from './pages/DentistryAesthetics';
+import DentistryAesthetics from './pages/DentistryAesthetics';
 import About from './pages/About';
 import Testimonials from './pages/Testimonials';
 import FAQs from './pages/FAQs';
@@ -21,7 +21,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/rehabilitation" element={<Rehabilitation />} />
-              <Route path="/gynecology-aesthetics" element={<DentistryAesthetics />} />
+              <Route path="/dentistry-aesthetics" element={<DentistryAesthetics />} />
               <Route path="/about" element={<About />} />
               <Route path="/testimonials" element={<Testimonials />} />
               <Route path="/faqs" element={<FAQs />} />

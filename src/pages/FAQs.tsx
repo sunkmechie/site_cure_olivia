@@ -135,7 +135,7 @@ const FAQs: React.FC = () => {
         <div className="max-w-4xl mx-auto px-4">
           <FAQSection title="General Questions" icon={HelpCircle} faqs={generalFAQs} startIndex={0} />
           <FAQSection title="Rehabilitation Services" icon={Activity} faqs={rehabFAQs} startIndex={generalFAQs.length} />
-          <FAQSection title="Women's Health & Aesthetics" icon={Heart} faqs={womensHealthFAQs} startIndex={generalFAQs.length + rehabFAQs.length} />
+          <FAQSection title="Dentistry & Aesthetics" icon={Heart} faqs={aestheticHealthFAQs} startIndex={generalFAQs.length + rehabFAQs.length} />
         </div>
       </section>
 
@@ -156,7 +156,7 @@ const FAQs: React.FC = () => {
                   Contact Us
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
-                <a href="tel:+15551234567" className="btn btn-outline btn-lg text-white border-white hover:bg-white hover:text-primary">
+                <a href="tel:(+91) 9494761413" className="btn btn-outline btn-lg text-white border-white hover:bg-white hover:text-primary">
                   <Phone className="mr-2 h-5 w-5" />
                   Call Now
                 </a>

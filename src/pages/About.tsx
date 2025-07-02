@@ -28,28 +28,28 @@ const About: React.FC = () => {
 
   const teamMembers = [
     {
-      name: 'Dr. Sarah Mitchell',
-      role: 'Medical Director & Gynecologist',
-      specialty: 'Women\'s Health, Minimally Invasive Surgery',
+      name: 'Dr. Harsha Paga',
+      role: 'Sports Rehabilitation & Physiotherapist',
+      specialty: 'Sports Rehab, Pain Management, Stroke Management',
       image: 'https://images.pexels.com/photos/5215024/pexels-photo-5215024.jpeg?auto=compress&cs=tinysrgb&w=400',
-      credentials: 'MD, Board Certified OB/GYN'
+      credentials: 'Certified Sports Physician'
     },
     {
-      name: 'Dr. Michael Chen',
-      role: 'Physical Medicine & Rehabilitation',
-      specialty: 'Sports Medicine, Pain Management',
+      name: 'Dr. Susan',
+      role: 'Dental Surgeon & Cosmetologist',
+      specialty: '',
       image: 'https://images.pexels.com/photos/5452293/pexels-photo-5452293.jpeg?auto=compress&cs=tinysrgb&w=400',
-      credentials: 'MD, Board Certified PM&R'
+      credentials: 'IDA Certified'
     },
     {
-      name: 'Lisa Rodriguez, PT',
+      name: 'Teja Naidu',
       role: 'Lead Physical Therapist',
       specialty: 'Orthopedic Rehabilitation, Manual Therapy',
       image: 'https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=400',
       credentials: 'DPT, OCS, FAAOMPT'
     },
     {
-      name: 'Dr. Amanda Foster',
+      name: '-',
       role: 'Aesthetic Medicine Specialist',
       specialty: 'Cosmetic Dermatology, Anti-Aging',
       image: 'https://images.pexels.com/photos/4098369/pexels-photo-4098369.jpeg?auto=compress&cs=tinysrgb&w=400',
@@ -58,12 +58,12 @@ const About: React.FC = () => {
   ];
 
   const achievements = [
-    'Joint Commission Accredited Facility',
+    '',
     'Top 1% Patient Satisfaction Scores',
-    'American Physical Therapy Association Recognition',
-    'Women\'s Health Excellence Award 2023',
+    'Indian Physical Therapy Association Recognition',
+    '',
     'Green Practice Certification',
-    'Community Health Champion Award'
+    ''
   ];
 
   return (
@@ -73,10 +73,10 @@ const About: React.FC = () => {
         <div className="hero-content text-center">
           <div className="max-w-4xl">
             <h1 className="text-5xl font-bold leading-tight mb-6">
-              About <span className="text-primary">Vita</span><span className="text-secondary">Care</span> Center
+              About <span className="text-primary">cURe</span><span className="text-secondary">Clinic</span> Center
             </h1>
             <p className="text-xl mb-8 leading-relaxed opacity-80">
-              Since 2010, we've been committed to providing exceptional healthcare that combines advanced medical expertise with compassionate, personalized care. Our integrated approach to rehabilitation and women's health sets us apart as a leader in comprehensive wellness.
+              Since 2022, we've been committed to providing exceptional healthcare that combines advanced medical expertise with compassionate, personalized care. Our integrated approach to rehabilitation and women's health sets us apart as a leader in comprehensive wellness.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact" className="btn btn-primary btn-lg">
@@ -102,7 +102,7 @@ const About: React.FC = () => {
                   To provide comprehensive, compassionate healthcare that empowers individuals to achieve their optimal health and wellness. We are dedicated to combining cutting-edge medical treatments with personalized care to help our patients live their best lives.
                 </p>
                 <p className="text-lg opacity-80 leading-relaxed">
-                  Through our integrated approach to rehabilitation and women's health, we address the complete spectrum of our patients' needs, ensuring continuity of care and exceptional outcomes.
+                  Through our integrated approach to rehabilitation, we address the complete spectrum of our patients' needs, ensuring continuity of care and exceptional outcomes.
                 </p>
               </div>
             </div>
@@ -240,10 +240,10 @@ const About: React.FC = () => {
         <div className="hero-content text-center">
           <div className="max-w-4xl">
             <h2 className="text-4xl font-bold mb-6">
-              Experience the VitaCare Difference
+              Experience the cURe difference
             </h2>
             <p className="text-xl mb-8 opacity-90">
-              Join thousands of patients who have trusted us with their health and wellness journey. Discover personalized care that puts you first.
+              Join hundreds of patients who have trusted us with their health and wellness journey. Discover personalized care that puts you first.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact" className="btn btn-neutral btn-lg">

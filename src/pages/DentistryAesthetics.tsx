@@ -85,7 +85,7 @@ const DentistryAesthetics: React.FC = () => {
                         <Shield className="h-8 w-8 text-secondary" />
                         <div>
                           <p className="font-semibold">Safe & Trusted</p>
-                          <p className="text-sm opacity-70">FDA Approved</p>
+                          <p className="text-sm opacity-70">IDA Approved</p>
                         </div>
                       </div>
                     </div>

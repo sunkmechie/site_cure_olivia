@@ -7,12 +7,12 @@ const DentistryAesthetics: React.FC = () => {
     {
       title: 'Routine Dental Care',
       description: 'Comprehensive dental exams and preventive care.',
-      features: ['Annual wellness exams', 'Pap smears', 'Birth control counseling', 'STD testing']
+      features: ['Annual check-ups', 'Dental cleanings', 'Cavity screenings', 'Oral hygiene education']
     },
     {
-      title: 'Minimally Invasive Procedures',
-      description: 'Advanced surgical techniques for various conditions.',
-      features: ['Laparoscopic surgery', 'Hysteroscopy', 'Endometrial ablation', 'Fibroid treatment']
+      title: 'Restorative Procedures',
+      description: 'Advanced techniques to restore your smile and oral function.',
+      features: ['Fillings', 'Crowns and bridges', 'Root canal therapy', 'Dentures and partials']
     }
   ];
 

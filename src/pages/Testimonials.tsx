@@ -10,34 +10,34 @@ const Testimonials: React.FC = () => {
       service: 'Physical Therapy',
       rating: 5,
       image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=300',
-      quote: 'After my knee surgery, I was worried about my recovery. The team at VitaCare not only helped me regain full mobility but also gave me the confidence to return to my active lifestyle. The personalized care and expertise made all the difference.',
+      quote: 'After my knee surgery, I was worried about my recovery. The team at cURe Clinic not only helped me regain full mobility but also gave me the confidence to return to my active lifestyle. The personalized care and expertise made all the difference.',
       result: 'Returned to marathon running within 6 months'
     },
     {
       name: 'Maria Rodriguez',
       age: 42,
       service: 'Dentistry & Aesthetics',
-      rating: 5,
+      rating: 4,
       image: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=300',
-      quote: 'The comprehensive women\'s health care I received was outstanding. Dr. Mitchell and her team made me feel comfortable and heard. The aesthetic treatments have boosted my confidence tremendously.',
+      quote: 'The recovery after the cosmetology treatment was tremendous.',
       result: 'Improved health and renewed confidence'
     },
     {
-      name: 'Robert Chen',
+      name: '---',
       age: 58,
       service: 'Rehabilitation',
-      rating: 5,
+      rating: 3,
       image: 'https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=300',
-      quote: 'Following my stroke, I thought my independence was gone forever. The neurological rehabilitation program at VitaCare helped me regain function I never thought possible. The staff\'s dedication and encouragement kept me motivated every step of the way.',
+      quote: 'Following my stroke, I thought my independence was gone forever. The neurological rehabilitation program at cURe Clinic helped me regain function I never thought possible. The staff\'s dedication and encouragement kept me motivated every step of the way.',
       result: 'Regained 90% of pre-stroke functionality'
     },
     {
-      name: 'Jennifer Thompson',
+      name: '---',
       age: 29,
       service: 'Aesthetic Treatments',
       rating: 5,
       image: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=300',
-      quote: 'I was hesitant about aesthetic treatments, but the team at VitaCare made me feel so comfortable. The results are natural and exactly what I wanted. I feel more confident than ever, and the experience was wonderful.',
+      quote: 'I was hesitant about aesthetic treatments, but the team at Olivia Clinic made me feel so comfortable. The results are natural and exactly what I wanted. I feel more confident than ever, and the experience was wonderful.',
       result: 'Natural-looking results exceeded expectations'
     },
     {
@@ -48,15 +48,6 @@ const Testimonials: React.FC = () => {
       image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=300',
       quote: 'As a construction worker, my back injury was devastating. The physical therapy program not only eliminated my pain but also taught me how to prevent future injuries. I\'m back to work and stronger than before.',
       result: 'Pain-free and returned to full-time work'
-    },
-    {
-      name: 'Lisa Park',
-      age: 39,
-      service: 'Women\'s Health',
-      rating: 5,
-      image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=300',
-      quote: 'The care I received during my fertility journey was exceptional. The team was supportive, knowledgeable, and gave me hope when I needed it most. I\'m now a proud mother thanks to their expertise and compassion.',
-      result: 'Successfully conceived after 3 years of trying'
     }
   ];
 
@@ -77,7 +68,7 @@ const Testimonials: React.FC = () => {
               Patient Success Stories
             </h1>
             <p className="text-xl mb-8 leading-relaxed opacity-80">
-              Hear from our patients about their transformative experiences at VitaCare. These stories represent the heart of what we do—helping people reclaim their health, confidence, and quality of life.
+              Hear from our patients about their transformative experiences at cURe Clinic. These stories represent the heart of what we do—helping people reclaim their health, confidence, and quality of life.
             </p>
           </div>
         </div>
@@ -171,13 +162,13 @@ const Testimonials: React.FC = () => {
                       <path d="M6.3 2.84A1.5 1.5 0 004 4.11v11.78a1.5 1.5 0 002.3 1.27l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"/>
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold mb-2">Sarah's Recovery Journey</h3>
+                  <h3 className="text-xl font-bold mb-2"> Recovery Journey</h3>
                   <p className="opacity-90">Physical Therapy Success Story</p>
                 </div>
               </figure>
               <div className="card-body">
                 <p className="opacity-80">
-                  Watch Sarah share how physical therapy at cURe helped her return to competitive running after a serious injury.
+                  Watch share how physical therapy at cURe helped her return to competitive running after a serious injury.
                 </p>
               </div>
             </div>
@@ -190,13 +181,13 @@ const Testimonials: React.FC = () => {
                       <path d="M6.3 2.84A1.5 1.5 0 004 4.11v11.78a1.5 1.5 0 002.3 1.27l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z"/>
                     </svg>
                   </div>
-                  <h3 className="text-xl font-bold mb-2">Maria's Transformation</h3>
-                  <p className="opacity-90">Women's Health & Aesthetics</p>
+                  <h3 className="text-xl font-bold mb-2"> Transformation</h3>
+                  <p className="opacity-90">Aesthetics</p>
                 </div>
               </figure>
               <div className="card-body">
                 <p className="opacity-80">
-                  Maria discusses her comprehensive care experience and how it improved both her health and confidence.
+                   Her comprehensive care experience and how it improved both her health and confidence.
                 </p>
               </div>
             </div>
@@ -255,7 +246,7 @@ const Testimonials: React.FC = () => {
               Ready to Write Your Success Story?
             </h2>
             <p className="text-xl mb-8 opacity-90">
-              Join thousands of patients who have transformed their lives with VitaCare. Your journey to better health and renewed confidence starts here.
+              Join thousands of patients who have transformed their lives with cURe Clinic. Your journey to better health and renewed confidence starts here.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact" className="btn btn-neutral btn-lg">

@@ -68,9 +68,8 @@ const Contact: React.FC = () => {
     'Physical Therapy',
     'Occupational Therapy',
     'Neurological Rehabilitation',
-    'Gynecological Care',
+    'Dentistry',
     'Aesthetic Treatments',
-    ,
     'General Inquiry'
   ];
 
@@ -244,7 +243,7 @@ const Contact: React.FC = () => {
                     <div className="text-center">
                       <MapPin className="h-12 w-12 text-primary mx-auto mb-2" />
                       <p className="opacity-80">Interactive Map</p>
-                      <p className="text-sm opacity-60">123 Wellness Drive, Health City, HC 12345</p>
+                      <p className="text-sm opacity-60">Opposite Vishaka Diary, Sarpavaram Junction, Kakinada, 533003</p>
                     </div>
                   </div>
                 </div>
@@ -314,8 +313,8 @@ const Contact: React.FC = () => {
                 <p className="opacity-80 mb-4">
                   Speak directly with our staff to schedule appointments or ask questions.
                 </p>
-                <a href="tel:+15551234567" className="btn btn-primary">
-                  (555) 123-4567
+                <a href="tel:+91 9494761413" className="btn btn-primary">
+                  (+91) 9494761413
                 </a>
               </div>
             </div>
@@ -329,8 +328,8 @@ const Contact: React.FC = () => {
                 <p className="opacity-80 mb-4">
                   Send us a detailed message and we'll respond within 24 hours.
                 </p>
-                <a href="mailto:info@vitacare.com" className="btn btn-secondary">
-                  info@vitacare.com
+                <a href="mailto:appointments@cure.com" className="btn btn-secondary">
+                  appointments@cure.com
                 </a>
               </div>
             </div>

@@ -70,7 +70,7 @@ const Contact: React.FC = () => {
     'Neurological Rehabilitation',
     'Gynecological Care',
     'Aesthetic Treatments',
-    'Women\'s Health Consultation',
+    ,
     'General Inquiry'
   ];
 
@@ -282,8 +282,8 @@ const Contact: React.FC = () => {
                 <div>
                   <h3 className="font-bold">Emergency Contact</h3>
                   <div className="text-xs">
-                    For medical emergencies, please call 911 immediately.<br />
-                    For urgent care needs: <span className="font-semibold">(555) 123-4568</span>
+                    For medical emergencies, please call 108 immediately.<br />
+                  
                   </div>
                 </div>
               </div>

@@ -6,7 +6,7 @@ const DentistryAesthetics: React.FC = () => {
   const denServices = [
     {
       title: 'Routine Dental Care',
-      description: 'Comprehensive women\'s health exams and preventive care.',
+      description: 'Comprehensive dental exams and preventive care.',
       features: ['Annual wellness exams', 'Pap smears', 'Birth control counseling', 'STD testing']
     },
     {
@@ -52,7 +52,7 @@ const DentistryAesthetics: React.FC = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="text-left">
                 <h1 className="text-5xl font-bold leading-tight mb-6">
-                  Women's Health &
+                  Dental Health &
                   <span className="text-secondary"> Aesthetic</span> Excellence
                 </h1>
                 <p className="text-xl mb-8 leading-relaxed opacity-80">
